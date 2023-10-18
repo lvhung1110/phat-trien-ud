@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    width: 1304px;
+    height: 120px;
+    margin:0 auto;
+    margin-bottom: 60px;
+    border-top: 2px solid black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+
+}
+.navbar__item{
+    font-size: 25px ;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+
+/* container */
+.container{
+    width: 1304px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.wrapper__item{
+    box-sizing: border-box;
+}
+.sidebar-one{
+    margin-right: 50px;
+}
+
+/* Home Furnishings */
+.home__furnishings img{
+    width: 314px;
+    height: 206px;
+}
+.home__furnishings-item a{
+    text-decoration: none;
+    margin: 10px;
+}
+.home__furnishings h2{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 1.4em;
+}
+.home__furnishings p{
+    color: black;
+    font-weight:300;
+    line-height: 1.5em;
+}
+.home__furnishings h2:hover ,
+.home__furnishings p:hover{
+    opacity: 0.8;
+}
+
+/* Pets */
+.pets img{
+    width: 314px;
+    height: 206px;
+}
+.pets-item a{
+    text-decoration: none;
+    margin: 10px;
+}
+.pets h2{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 1.4em;
+}
+.pets p{
+    color: black;
+    font-weight:300;
+    line-height: 1.5em;
+}
+.pets h2:hover ,
+.pets p:hover{
+    opacity: 0.8;
+}
+
+
+.sidebar-two{
+    margin-right: 50px;
+}
+
+
+/* Technology */
+.technology img{
+    width: 580px;
+    height: 520px;
+    
+}
+.technology__item a{
+    text-decoration: none;
+    margin: 10px;
+}
+.technology h2{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 10px;
+    line-height: 1.4em;
+}
+.technology p{
+    color: black;
+    font-weight:300;
+    line-height: 1.5em;
+}
+.technology h2:hover ,
+.technology p:hover{
+    opacity: 0.8;
+}
+
+
+
+/* Featured */
+.featured img{
+    width: 314px;
+    height: 206px;
+}
+.featured__item a{
+    text-decoration: none;
+    margin: 10px;
+}
+.featured h2{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 1.4em;
+}
+.featured p{
+    color: black;
+    font-weight:300;
+    line-height: 1.5em;
+}
+.featured h2:hover ,
+.featured p:hover{
+    opacity: 0.8;
+}
+
+/* Architecture */
+.architecture img{
+    width: 314px;
+    height: 206px;
+}
+.architecture__item a{
+    text-decoration: none;
+    margin: 10px;
+}
+.architecture h2{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 1.4em;
+}
+.architecture p{
+    color: black;
+    font-weight:300;
+    line-height: 1.5em;
+}
+.architecture h2:hover ,
+.architecture p:hover{
+    opacity: 0.8;
+}
+
+/* litle decor */
+.litle__decor {
+    background-color: #efefef;
+    width: 100%;
+    height: 380px;
+    margin: 20px 0 40px 0px;
+}
+/* Feature layout */
+
+.feature-layout{
+    width: 1304px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.feature__item{
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.feature__item img{
+    width: 380px;
+    height: 250px;
+}
+.feature__item-all{
+    width: 560px;
+    padding-left: 20px;
+}
+.feature__item-all h2{
+    line-height: 1.3em;
+    font-size: 30px;
+    font-weight: 500;
+}
+.feature__item-all p{
+    line-height: 1.5em;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+/* Fresh Milk */
+.container-milk{
+    max-width: 100%;
+    width: 100%;
+    background-color: #efefef;
+    margin-bottom: 50px;
+    
+}
+
+.fresh-milk{
+    width: 1304px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.container-milk h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 450;
+    box-sizing: border-box;
+}
+
+.milk__item{
+    display: flex;
+}
+
+.milk__item img{
+    width: 145px;
+    height: 145px;
+}
+.milk__item .milk__item-title {
+    width: 250px;
+}
+.milk__item-title{
+    margin: 0 25px;
+}
+.milk__item-title h3 {
+    font-size: 15px;
+    padding-bottom: 5px;    
+}
+.milk__item-title p{
+    line-height: 1.4em;
+    font-size: larger;
+}
+
+
+
+/* Container playout */
+.container-layout{
+    width: 1304px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.container__item{
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.container__item img{
+    width: 380px;
+    height: 250px;
+}
+.container__item-all{
+    width: 560px;
+    padding-left: 20px;
+}
+.container__item-all h2{
+    line-height: 1.3em;
+    font-size: 30px;
+    font-weight: 500;
+}
+.container__item-all p{
+    line-height: 1.5em;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+
+/* Container Popular */
+
+.container-popular{
+    max-width: 100%;
+    width: 100%;
+    background-color: #efefef;
+    margin-bottom: 50px;
+    
+}
+
+.main-popular{
+    width: 1304px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.container-popular h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 450;
+    box-sizing: border-box;
+}
+
+.popular__item{
+    display: flex;
+}
+
+.popular__item img{
+    width: 145px;
+    height: 145px;
+}
+.popular__item .popular__item-title {
+    width: 250px;
+}
+.popular__item-title{
+    margin: 0 25px;
+}
+.popular__item-title h3 {
+    font-size: 15px;
+    padding-bottom: 5px;    
+}
+.popular__item-title p{
+    line-height: 1.4em;
+    font-size: larger;
+}
+
+/* layouts two */
+.layout-two{
+    width: 1304px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.layouts__item{
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.layouts__item img{
+    width: 380px;
+    height: 250px;
+}
+.layouts__item-all{
+    width: 560px;
+    padding-left: 20px;
+}
+.layouts__item-all h2{
+    line-height: 1.3em;
+    font-size: 30px;
+    font-weight: 500;
+}
+.layouts__item-all p{
+    line-height: 1.5em;
+    padding-top: 20px;
+    font-weight: 300;
+}
